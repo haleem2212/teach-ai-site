@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeachAI – Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="signup.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TeachAI</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Create your account</h2>
+        <form id="signupForm">
+            <label>
+                Name
+                <input type="text" name="name" required>
+            </label>
+            <label>
+                Email
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Password
+                <input type="password" name="password" required>
+            </label>
+            <label>
+                Choose plan
+                <select name="plan" id="planSelect">
+                    <option value="basic">Basic (£9.99/mo)</option>
+                    <option value="standard">Standard (£19.99/mo)</option>
+                    <option value="premium">Premium (£29.99/mo)</option>
+                </select>
+            </label>
+            <p class="note">*Payment is simulated for this demonstration.</p>
+            <button type="submit" class="btn">Next</button>
+        </form>
+    </main>
+    <footer>
+        © 2025 TeachAI. All rights reserved.
+    </footer>
+</body>
+</html>
